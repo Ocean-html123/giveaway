@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(141, 241, 241, 0.575);
+}
+img {
+    width: 39%;
+    margin-top: 4rem;
+    margin-left: 26rem;
+}
+.container {
+    display: flex;
+    text-align: center;
+    margin-right: 2rem;
+}
+.shift {
+margin-right: 22rem;
+margin-top: 3rem;
+}
+
+h4 {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+h2 {
+    margin-left: 40rem;
+    margin-top: 4rem;
+    color: rgba(49, 49, 224, 0.89);
+}
+.border {
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+    background-color: gray;
+    height: 4rem;
+   
+}
+.deadline {
+display: flex;
+margin-top: -4.5rem;
+margin-left: 49rem;
+}
+.flex {
+    display: flex;
+    margin-left: 49rem;
+    margin-top: -2rem;
+}
+.padding {
+    padding: 0 0.5rem;
+}
+@media  screen and (max-width: 600px){
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 2rem;
+    }
+    .flex {
+        display: flex;
+        margin-left: 6rem;
+        margin-top: -2rem;
+    }
+    .padding {
+        padding: 0 0.5rem;
+    }
+   img {
+    margin-left: -15rem;
+    margin-bottom: -3rem;
+    width: 50%;
+   }
+   .shift {
+    margin-left: 6rem;
+   }
+   h2 {
+    margin-left: 6rem;
+   }
+   .deadline {
+    margin-left: 6rem;
+    margin-top: 1rem;
+   }
+}
